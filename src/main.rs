@@ -2,6 +2,8 @@ use std::fmt;
 
 struct Structure(i32);
 
+struct List(Vec<i32>);
+
 #[derive(Debug)]
 struct MinMax(i64, i64);
 
@@ -29,6 +31,22 @@ struct Complex {
     img: f64,
 }
 
+impl fmt::Display for List {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        let vec = &self.0;
+
+        write!(f, "[")?;
+
+        for (count, v) in vec.iter().enumerate() {
+            if count != 0 { write!(f, ", ")?; }
+            write!(f, "{count}:{}", v)?;
+        }
+
+        write!(f, "]")
+    }
+}
+
+
 fn main() {
     let minmax = MinMax(0, 14);
 
@@ -53,4 +71,7 @@ fn main() {
     let complex: Complex = Complex { real: 3.3, img: 7.2 };
 
     println!("Display: {:?}", complex);
+
+    let v = List(vec![1, 2, 3]);
+    println!("{}", v);
 }

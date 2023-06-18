@@ -3,8 +3,7 @@
         "editor.defaultFormatter": "rust-lang.rust-analyzer"
     },
     "rust-analyzer.linkedProjects": [
-        "./Cargo.toml",
-        "./Cargo.toml",
-        "./Cargo.toml"
+        "./1.helloworld/Cargo.toml",
+        "./2.primitives/Cargo.toml"
     ]
 }

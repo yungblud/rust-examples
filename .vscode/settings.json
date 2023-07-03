@@ -5,6 +5,7 @@
     "rust-analyzer.linkedProjects": [
         "./1.helloworld/Cargo.toml",
         "./2.primitives/Cargo.toml",
-        "./custom-types/Cargo.toml"
+        "./custom-types/Cargo.toml",
+        "./variable-bindings/Cargo.toml"
     ]
 }

@@ -8,6 +8,7 @@
         "./custom-types/Cargo.toml",
         "./variable-bindings/Cargo.toml",
         "./types/Cargo.toml",
-        "./conversion/Cargo.toml"
+        "./conversion/Cargo.toml",
+        "./expressions/Cargo.toml"
     ]
 }

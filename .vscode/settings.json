@@ -7,6 +7,7 @@
         "./2.primitives/Cargo.toml",
         "./custom-types/Cargo.toml",
         "./variable-bindings/Cargo.toml",
-        "./types/Cargo.toml"
+        "./types/Cargo.toml",
+        "./conversion/Cargo.toml"
     ]
 }

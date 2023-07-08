@@ -6,6 +6,7 @@
         "./1.helloworld/Cargo.toml",
         "./2.primitives/Cargo.toml",
         "./custom-types/Cargo.toml",
-        "./variable-bindings/Cargo.toml"
+        "./variable-bindings/Cargo.toml",
+        "./types/Cargo.toml"
     ]
 }
